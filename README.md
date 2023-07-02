@@ -18,6 +18,8 @@ ASL is a complete, natural language that uses a combination of hand shapes, move
 ## Dataset
 The dataset used for training and evaluation consists of labeled images of ASL hand gestures. The images cover a wide range of gestures corresponding to different letters and words in ASL. The dataset includes various hand orientations, lighting conditions, and backgrounds to ensure the model's robustness.
 
+https://www.kaggle.com/datasets/grassknoted/asl-alphabet
+
 ## Model Architecture
 The ASL detection model is built using convolutional neural networks (CNNs), which have proven to be effective in image recognition tasks. The architecture consists of multiple convolutional and pooling layers followed by fully connected layers for classification. The model is trained end-to-end using a large labeled dataset.
 
@@ -30,10 +32,9 @@ To evaluate the performance of the ASL detection model, a separate test set is u
 ## Usage
 To use the ASL detection model, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/ASL-detection.git`
-2. Install the required dependencies: `pip install -r requirements.txt`
-3. Prepare your input image(s) of ASL hand gestures.
-4. Use the trained model to predict the ASL gestures in the input images: `python detect_asl.py --image path/to/your/image.jpg`
+1. Clone the repository: `git clone https://github.com/Gesskay/ASL_Recognition.git`
+2. Prepare your input image(s) of ASL hand gestures.
+3. Use the trained model to predict the ASL gestures in the input images: `python detect_asl.py --image path/to/your/image.jpg`
 
 Make sure to replace `path/to/your/image.jpg` with the actual path to your image.
 
@@ -47,4 +48,6 @@ Although the ASL detection model performs well, there are several areas where it
 
 Contributions from the open-source community are highly encouraged to enhance the project further.
 
-##
+## Acknowledgments
+Special thanks to SmartInternz for providing guidance and resources.
+
